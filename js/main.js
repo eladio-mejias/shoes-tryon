@@ -86,7 +86,7 @@ const _settings = {
       VTOCanvas: VTOCanvas,
       handTrackerCanvas: handTrackerCanvas,
       debugDisplayLandmarks: false,
-      NNsPaths: ['../dev/NN_FOOT_' + _settings.NNVersion.toString() + '.json'],
+      NNsPaths: ['./dev/NN_FOOT_' + _settings.NNVersion.toString() + '.json'],
       maxHandsDetected: 2,
       stabilizationSettings: {
         //qualityFactorRange: [0.4, 0.7],
